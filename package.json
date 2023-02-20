@@ -1,0 +1,32 @@
+{
+  "name": "nina-carducci.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "clen-build": "vite build --emptyOutDir",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite build && vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nina-carducci/nina-carducci.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nina-carducci/nina-carducci.github.io/issues"
+  },
+  "homepage": "https://github.com/nina-carducci/nina-carducci.github.io#readme",
+  "devDependencies": {
+    "vite": "4.1.2",
+    "vite-plugin-optimize-css-modules": "^1.0.4",
+    "vite-plugin-progress": "^0.0.6",
+    "vite-plugin-vsharp": "^1.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "5.2.3"
+  }
+}
