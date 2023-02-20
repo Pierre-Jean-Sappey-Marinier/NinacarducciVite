@@ -84,6 +84,16 @@ body {
   font-weight: 800;
   font-style: italic;
   width: 60%;
+  font-size: 1rem;
+}
+@media (max-width: 1200px) {
+  .about-me__introduction {
+    font-family: "Spectral";
+    font-weight: 800;
+    font-style: italic;
+    width: 100%;
+    font-size: 1rem;
+  }
 }
 #about-me p {
   width: 80%;

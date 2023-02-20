@@ -1,6 +1,7 @@
 import vsharp from "vite-plugin-vsharp";
 import progress from "vite-plugin-progress";
 import { optimizeCssModules } from "vite-plugin-optimize-css-modules";
+import htmlPurge from "vite-plugin-purgecss";
 
 export default {
   root: "./src",
@@ -19,7 +20,7 @@ export default {
       exclude: ["nina.webp"],
       scale: 0.15,
     }),
-
+    // htmlPurge(),
     progress(),
     optimizeCssModules(),
   ],

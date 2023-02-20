@@ -22,11 +22,13 @@
   "homepage": "https://github.com/nina-carducci/nina-carducci.github.io#readme",
   "devDependencies": {
     "vite": "4.1.2",
+    "vite-imagetools": "^4.0.18",
     "vite-plugin-optimize-css-modules": "^1.0.4",
     "vite-plugin-progress": "^0.0.6",
     "vite-plugin-vsharp": "^1.3.0"
   },
   "dependencies": {
-    "bootstrap": "5.2.3"
+    "bootstrap": "5.2.3",
+    "vite-plugin-purgecss": "^0.2.12"
   }
 }
