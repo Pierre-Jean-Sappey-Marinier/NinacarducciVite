@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Nina Carducci Photographe</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      />
+    </noscript>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    
+    
+    
+
+    <!-- Balises meta pour réseaux sociaux -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.3661c5be.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH5wIQDQ8kXg/uKAAACnBJREFUWMOFl9lvVVl2xn97OOcOtq8xZUNRKRVTDYAHMMa+dttmtLExUNBTWumW+qX/ibxE6Zb6T8hDv3UiJVKkJGoCwePFNjaDoUbMYDMUYDxgBk+0x3vO3jsP52KqWkrnSEc60j7aa/rWt74lAKqqqhCQdPAT4DfAfudcASD4K48Qf/UY59z6J7AIfOuc/ePq6tp/eJ63ODw8jCjdV7kRFxb4yvt7Ab+21iYRgoL8fLTWRHe4dWNCCKSUrK6usry8DH/hhACMtQgB+Xn5KKX4vhtCsJJIJP79l7/81e9LK/fOi8/Ky25Z55I4u10rpbZ9tI0jh49Ql04Tjyciww6klAgpWFhY4Muvv6Iz08PkxDhKe7m7HTiHlIrNmzeTrklTm64lPy+Js5F9KSRaa0wY2meTE08vdncs6iAMKpKJJOVlZbQca6a2tpZNxSVIKYEoWgRMv3jB5cEBujM9PHj4kGwQILWHkJLQhPi+z84dH3P40CEOVFVRXFSMUhpwKKXQWrO6usqt4Vt092bk8O3hHUsry+imI0c5deIUlfsrKUjmg3U4LOCwzjE2Nk5nTxd9/X08mxjHOovvxfB9n9BGhkt37qG5qYm9Ffso2rgRLRXOWqSMIp6dn2Po5k36Lvcx8mCUIAhQUkYle/VyxsV8H2sjo1IqgiDgwaNHXBroZ/DKIBOTEwghUErjco5tSBVSWVlJ85GjfLzjExLxOMYalFR4no/nKV7OztDX309vfx9j42NYJ3A4nDGYXNbEwuybCCPCsbS8zO27d+nq6eaLr75kZm4OP+YjhcRYi3OWkpJiaqvTHDl0mJ07dqKlxoQGhENrDyEE0y9fcO3mEFeuX+PRd48woQXhcE5gTYjneVTt28exI0cRb2bfuNezM1z/4gbdmQx3R+6xls2itUYIgbEG52DL++/TUF/PocZGPv5oO0pqAhMCoLUGAU+fPSPT38fQjSGmX73AOpHrQIHnaZLJJPsr9tJ85AiV5RUU5OWj//nf/oW+gQEeP32KsZZYzMeP+YTG4CnJ9u07aWxopLrqACUlJSRjcZTSCARxL0Y2DBh5OEr/lUGu37jBzNwcQogc8h1CSvKTCdLVNZw43kL5nt0k/DjOWqy1iPKqSieVQns+1liccySTScpKS2msb2BvRQUbi95DCYkxAZ7noZRiZWWF2/fu0pnpYfjObZaWVxBKYcIQZx1SSjakCqlL19Da1MSuTz8j5sdwziKcyPGJQMfiCaw1GGNIFaRIV1dzqPEg5aWl+H4ME1icsaAEsVicPy/+ma9ufUN3JsO9+6MsLS3jeRFhmSDAGst7RUU0NtRzovk4n+7cged9D+Qi4pP5hXlu3bmDDoKAkveKqauto7mpiR1btyEQGBMSZAO08lBasvAmR0A9GR4+eUQQmlwUijC04BybN5VwuPEgbc3H2bZ1K1opjA2x1iClRErB/MICQzdvcr69nZHREcQ//eEPrrY6zZbNWyK6sg6EQyqFUoqZuTl6By5z6XIfU9PPscaCA+tcVEMBH334IYcbD3H86FE++vBDpJDRfziQIJVkbmGea0PXOf8/FxkZHWVldRVPe4jnUy8d1mJMxJe+7yMkTE0/p29ggMHr1xifmiIMA7RWOOcIsiFSwPat2zjZdoLDDY1sKt4UTS7nEEKuz4yZ+RkGrl2hvbuLe/dGyK5FHSalACHR7q1hz8MJx7PJcXr6LzFw9SqvZ2ZACBwghciVRFG66zOajx7jUH0DmzaV5DIS3SOlQgrBzNwsl69c4WJXB/cf3CcIQ7TSeL6fm5SWeNxHx2IeoQl5+PgRXZkehr76kpm5WZSMShCaEBwkEgnK95Ry/NgxqqsOUFS4IaJta0EIlJaA4/n0cwavXqW9u5vHT55gjUEKsU69YRiQSCaoqaqitakFPfTlF1y+eoWvb33D4uIiQki0ilCdXcuSKsinan8VbS0t7C0rJy+Zh3MO5xxCgJIRPU9MTtDVm6GnJ8Pk1BTGWZRSESfktIHva2qrD3D65EkOVO4nL5mPONzS4lbX1iJASYEzlmwQUlRURF1NDW0trZTt3kMsFvu+wEBKibOW8YkJui5l6OntYWJyMueYWMdBEAYkEglKd+3m7OnTpKuryU/m4azFOdChNSgpyeacKCoqoqkmzem2k5Tu2o0X83HW5foYlJQ44MnYU7q6u+no6mTqxXN8z1/vd2NCjDHEYzHKS3dz5tTn1KXTFBYUYIzBmoieEQK9urqKM5bi4mIaflTPiZYWdu38BN/z13sYFyHaOsvjsadk+nq52NHO5MQkWms8zwMZzQ1jDDHfZ9enn3LqRBv1tXUUFqawzhGGBpFTVUII1sIA/TebP6D+R3W0HW9h+9ZtaK2xJsfTQiCVxBjLd4+/42JHO5n+PqZfvEAKgVYqJ1wgNIa471O+ezcnW09QV1tLUaoo4vzQYYVFOADJytoqXw9/S3tnJ+LxkzH3fslmlJTraX5b49AYHj5+SEdnB5nePp5PT+PHYzmjLiqNsfgxj9LSPXzedoq66hoKUymsdRjnELzTkkE2y+3Re/znuT9xbWiIpeUlxOrSmvtLcIXGMHp/lPauDnr7+3j9+hUOgZAScumz1pBMJqkoK+NUayu11TWkCgqx1q2D1TmQUpDNBgzfu8P59otcvXaNN4tvIo0pBGJladUJQEhBGBoePHrAhYsX6e3vZ2Z2FqWiFBtjEFJgrEMryf6Kvfz47FlqDlSTys/PGf6hLA9Cw937I/zpwn9zeeAyb94s4HkxEGCtRSLQSiqyQZaRuyNc7Oxk8Oogr2dm0FpHiHfvtgPf8ykvL+PztpPU1dSSKkhhrCUM30bsIieNYfThA85dOE//4ACzs7N4nkZrP5J0JgJ2aA3i+vUbrqOrg/6BAeYX5tHai+jXRWM4CENi8Tj7Kso52dpGbTpNYUEKl0v126AF0YB6+myMcxfO09nTzez8PL7n5UpmMSYgDEJMaChIFZA+UI2obWh0S0uLSClyrBW9YZAlHotRVlrK2c/PUFtTQ6ogRRCE0UwXYj0z1lrGJye40NFOV6aH6elpcA6lNUJEWLDWEIQBvtakD9Twtz/9GQf2V0U8IGU0t4WA0Dh8z6Oqcj8/PnOGdHUNqVQKayxhaHITO1I1AFMvnnPuwnl6LkUUrHKle/sYa7DGIoCK0nJ+8bOfc7C+gfy8fKxxaES0sRgDQkoqK8o4e+YMDQ31FOYX4oyNJJaQOUlusc7y8tUrMv29nLtwnonJcUCscz/kmNNGU++TnTs4c/oMzU3HKd5YnLszkn9iX3X1DWtMYTKR+KT5WJM8dPAgGzYUYU2IdQ4R6Y+otZwjCEPujI7Q3tHOk7GnOBfpP5cTKG+JyVqLVor6ujraWlt5f/MWctsbzjn7wZYPviss3DAnKmuqC8K17Ma8ROJ38Xj8F9a6OM5Brnbvltt3G+/KygrGGqRUiB+cfu/f3D6ZTCbXQZgjpKznef/VUN/4D7/93T++FM3HDvLy9QLOuQKl1N8JIX4D7AVi/9fa/f+t5T9w510Ua8Ad59wfgyD4V8/zFr799hv+F5PnS+7aKQMtAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAyLTE2VDEzOjE1OjM2KzAwOjAwf1rEAQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMi0xNlQxMzoxNTozNiswMDowMA4HfL0AAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACwVBMVEUkKSgqLCs0NTRHSEhbW1yho6UwNjVcYF+TlplXX18uMjNDRkbS0dXr6e4uMTFERERKSkpJSUlUU1S3tblFRUVIR0hKSkpISEg3NzcyMjIxMTEvMDA8PT1GRkaioqPQz9HPz9Gsra5obGwxNzYqMTBARkZ2enuws7XGyMu8vsG5urvn5ujs6u3Cw8V6fn89REMuNTRLUlGFiYvAwsXh4+bZ296jqKpfZ2gzPT0xOjnk4uWxsrNrb284Pz8wODdSWVmXmpvS0tXm5urV1didoaNcZGU6RERrcnKvsbJWWlkzOjk3Pj5jaWmhpafU19np6uyUmJpVXl4yPT09Rkdzenu9wcLu7fD49fk/RURwdXa0trjf3+HKzM6Kj5BMVVUwOjpASUl5f4DDxcfw7/D29vbU1NWTlpfFxcfk4ubn5ejDw8aAhYdFTk4xOztETE2DiInKy8308vX49fjT1NWLkI9HTk0uNjW9vb95fn5CSkoyPDxNVVWLkJDQ0NL29Pb19PXQ0NGIjI0uNTU5QUBobW1scXFAR0czPDxTWluZnZ7a29349/r29PfMzM6AhYRDSUlpbm65urrr6us3Pz5WXFydn6Hf3uH5+fv08/Z8f4E/RUUvNjY4Pj5ma2q0trbs6+v59/jw7vCsrrDj4uX7+fzGx8h4e3w+REQrMjE2PDxnbGu0tLTp6Ont7O65u7xudHT9+v308fXGxcd2eXo8QEAoLi4yOThmamq1trbq6Onu6+68vL40OzsmLS2+vsB2eHk9QkIrMDA0OTllaGmys7Tq5+r39Pfv7fDBwsRucnM1PDwlLCtARUU3OzsrLy60tLXp6Or18vbw7fB1eXo3PT0oLy4+REOJi4zS0dOOkJHHx8jT0dTRztHBv8J9f4A7QEAoLS0qLy8sMDBbXl6qq60+Pj4wMTAxMjIzNDRDQ0P///8rMSDyAAAAFHRSTlMjieztjCTd+frd2/n63CKO8PGRIwD7H/4AAAABYktHROrI2hYuAAAAB3RJTUUH5wIQDQ8jwGt7iwAAARtJREFUGNMBEAHv/gAAAQIUFRYXGBkaGxwdAwQFAAYHHh8gISIjJCUmJygpCAkAKissLS4vMDEyMzQ1Njc4OQA6Ozw9Pj9AQUJDREU4RkdIAElKS0xNTk9BUFFSU1RVVlcAWFlaW0JcXV5fYGFiY2RlZgBnaGlqa2xtbm9wcXJzdHV2ADp3eHl6e3x9fn+AgXWCg4QAhYaHiImKi4yNjo92S5CRkgCTlJWWl5hwmZqbnJ2en6ChAKKjpHGlpqeoqaqrrHKtrq8AsLGys7S1tre4uXK6uzy8vQC+v8DBwsPExcbHyMnKy8vMAM3OwsPP0NHSZ9PUvdXW19gACgvZ2tvc3d7f4OHi4+QMDQAODxAdFBTl5ucZGejpERITledylX+2MXgAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDItMTZUMTM6MTU6MzUrMDA6MDBOst6cAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTAyLTE2VDEzOjE1OjM1KzAwOjAwP+9mIAAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg=="
+    />
+    <link rel="manifest" href="data:application/manifest+json;base64,ewogICJuYW1lIjogIk5pbmEgQ2FyZHVjY2kgUGhvdG9ncmFwaGUiLAogICJzaG9ydF9uYW1lIjogIk5pbmEgQ2FyZHVjY2kiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICIvYXNzZXRzL2FuZHJvaWQtY2hyb21lLTE5MngxOTIucG5nIiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9LAogICAgewogICAgICAic3JjIjogIi9hc3NldHMvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLAogICAgICAic2l6ZXMiOiAiNTEyeDUxMiIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0KICBdLAogICJ0aGVtZV9jb2xvciI6ICIjZmZmZmZmIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIgp9Cg==" />
+    <link
+      rel="mask-icon"
+      href="/assets/safari-pinned-tab.92249386.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Base -->
+    <meta
+      name="description"
+      content="Les balises meta indispensables pour les réseaux sociaux : Facebook, Twitter, Google+, Pinterest"
+    />
+
+    <!-- Schema.org meta for Google+ -->
+    <meta itemprop="name" content="" />
+    <meta itemprop="description" content="" />
+    <meta
+      itemprop="image"
+      content="https://www.skyminds.net/les-balises-meta-indispensables-pour-les-reseaux-sociaux-facebook-twitter-google-pinterest/"
+    />
+
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@skyminds" />
+    <meta name="twitter:creator" content="@skyminds" />
+    <meta
+      name="twitter:title"
+      content="Les balises meta indispensables pour les réseaux sociaux : Facebook, Twitter, Google+, Pinterest"
+    />
+    <meta
+      name="twitter:description"
+      content="Les balises meta indispensables pour les réseaux sociaux : Facebook, Twitter, Google+, Pinterest"
+    />
+    <meta name="twitter:image" content="" />
+
+    <!-- Open Graph meta (Facebook, Linkedin) -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="" />
+    <meta property="author" content="" />
+    <meta property="og:image" content="" />
+
+    <!-- Balises meta pour réseaux sociaux -->
+
+    <!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "image": "./assets/images/camera.png",
+        "telephone": "05 56 67 78 89",
+        "priceRange": "50 - 400€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "opens": "Veuillez insérer ici une date/heure valide au format ISO 8601. Exemples : 2015-07-27 ou 2015-07-27T15:30"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-ad8cebc8.js"></script>
+    <link rel="stylesheet" href="/assets/index.583007b1.css">
+  </head>
+
+  <body>
+    <div class="top-header">
+      <h3 class="name">Nina Carducci</h3>
+      <div class="nav">
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+              target="_blank"
+              ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACmElEQVR4Xt2YjZHTMBCFHx1AB6ID6EAd3HWQpQLoICqBDpJKziXQAVcCHQB+kfbklX8iy3HC8M3sJN7Vz9uVpegOqON9b596kxuZRxxzExzga29db392sq63Axrwvb3CDvQd40q0GJMOsIlzrmdUckTuGHCDpVjA9XZGno9zL6LimBHfuXvhkFdsViRLrOKcDd0FhyzSm0hCg67w3xOumhbJvFqSAqehc0c4OVfMFX4SELV8Gzq75HRD547oao0qlZ4Zo6Zpx87oMqo92fAFLdhFvE8PIcdXwUEE8Zw8JeN3LmFZHeUHljck+zPOZN7eP7PmFXDyY2+/YCtSGgW72MXAyecSEMS+/LQPlXBwZs9+FBgQV8Il43f+Ymgbfl6qUYlgg0BOpFULNjRJQE6kVqSgUaBDroqYyDKCXMm5ZR0iaBR4Rn3lSgLq+woaBDJzrUIrXGbatSoKGgTy2GC7tbt9SEDdXIIGgXo2+cK/Bo84BsdaQtAg8IzYzln3KhziGKfCXyL4HwX+80ssiO2Cda+CG4xjTF0QhggaBPJo0GOilVfEuXY5ZkhAexWPqHv/iKBRIDPXKhyK2BJsyz7s62xoEkGjQDK8LLAq19DKsY+zoVkEGwQSB3uV4tXKJz+N3ylME2Gb2psMEWwUSBzsH91TpnfFa5uiRHe78IGZ8eHa2TQHJ3/G+MovKdZCQNTk+cBB+NDl+MOhFmp6S3DkeCAOEwXTNQ9D54M4I2o5DJ3D823Nbrs1HxE1/CwDxCMGKdSZyH2gOC0SN90kAY8R+RlZXLChMQGxIe2EfYS+S/YBeb7f6XsVLLFmROsQO/MXQ1balwnjOckxVRjfOY8GBNv+ic7Jl+wFMenNxxsH8BhXp9V4UlSJ+gvMUU3GuCYGbQAAAABJRU5ErkJggg==" alt="instagram logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="header">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/assets/ryoji-iwata-wUZjnOv7t0g-unsplash.99321601.jpg"
+              class="d-block w-100"
+              alt="photo of a man walking"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/nicholas-green-nPz8akkUmDI-unsplash.8fe72602.jpg"
+              class="d-block w-100"
+              alt="photo of a concert"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/edward-cisneros-3_h6-1NPDGw-unsplash.7d3f679b.jpg"
+              class="d-block w-100"
+              alt="photo of a wedding"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="about">
+      <div class="picture left">
+        <img src="/assets/nina.49a96acb.webp" alt="photo of photographe" />
+      </div>
+      <div id="about-me">
+        <h3 class="about-me__title">A propos de moi</h3>
+        <h3 class="about-me__introduction">
+          Devenir photographe était pour moi une évidence. Comme si j’y étais
+          prédestiné. Saisir un moment, une émotion, une situation, un endroit,
+          une lumière et les rendre immortels, voilà ce qui me fait vibrer.
+        </h3>
+        <p>
+          Nous passons notre vie à chercher le bonheur, et lorsque nous y
+          touchons, nous n’avons qu’une envie : le figer au travers de
+          photographies pour le savourer avec les personnes qui sont importantes
+          à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous
+          propose : saisir ces merveilleux moments au travers de mon regard, mon
+          approche, ma technique. Rendre ces moments immortels, afin que vous
+          puissiez y puiser de l’amour, du bonheur, de la tendresse et de
+          lumière à chaque fois que vous poserez les yeux sur vos photos.
+        </p>
+      </div>
+    </div>
+    <div id="gallery">
+      <h3 class="title">Portfolio</h3>
+      <div class="container py-3">
+        <div class="gallery" style="display: none">
+          <img
+            data-gallery-tag="Concert"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/aaron-paul-wnX-fXzB6Cw-unsplash.0652b8f6.jpg"
+          />
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/ali-morshedlou-WMD64tMfc4k-unsplash.f174576c.jpg"
+          />
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/jason-goodman-tHO1_OuKbg0-unsplash.92facbe3.jpg"
+          />
+          <img
+            data-gallery-tag="Mariages"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/hannah-busing-RvF2R_qMpRk-unsplash.1f2dda4e.jpg"
+          />
+          <img
+            data-gallery-tag="Portrait"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/ade-tunji-rVkhWWZFAtQ-unsplash.4ae1894a.jpg"
+          />
+          <img
+            data-gallery-tag="Mariages"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/jakob-owens-SiniLJkXhMc-unsplash.ddf952f2.jpg"
+          />
+          <img
+            data-gallery-tag="Portrait"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/nino-van-prattenburg--443cl1uR_8-unsplash.92db7238.jpg"
+          />
+          <img
+            data-gallery-tag="Concert"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/austin-neill-hgO1wFPXl3I-unsplash.dab9f4af.jpg"
+          />
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            alt="photo of a concert"
+            src="/assets/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.398eeb89.jpg"
+          />
+        </div>
+      </div>
+      <div class="quote">
+        <figure>
+          <blockquote>
+            <h1 class="quote__text">
+              Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
+              qu’un fait est traduit en photo, il cesse d’être un fait pour
+              devenir une opinion. L’inexactitude n’existe pas en photographie.
+              Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
+            </h1>
+          </blockquote>
+          <figcaption class="quote__author">- Richard Avedon</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div id="services">
+      <h2 class="title">Mes services</h2>
+      <div class="container">
+        <div class="service">
+          <div class="service__description">
+            <h3>Shooting photo</h3>
+            <p>
+              Pour capturer vos moments les plus précieux et garder un souvenir
+              impérissable. Je me déplace en Île-de-France pour réaliser vos
+              photos
+            </p>
+          </div>
+          <div class="service__price">
+            <h4>350€/demi journée</h4>
+            <span>Matériel, déplacement inclus</span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service__description">
+            <h3>Retouches</h3>
+            <p>
+              Vous souhaitez retoucher vos photos pour un résultat professionnel
+              ? Bénéficier d’un rendu optimal pour vos publications
+            </p>
+          </div>
+          <div class="service__price">
+            <h4>50€/photo</h4>
+            <span>2 AR par photo</span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service__description">
+            <h3>Album photos</h3>
+            <p>
+              Partagez avec vos proches et vos clients les photos des moments
+              partagés ensemble à travers un album photo personnalisé
+            </p>
+          </div>
+          <div class="service__price">
+            <h4>400€ album A4</h4>
+            <span>30 pages recto/verso</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quote">
+      <figure>
+        <blockquote>
+          <h1 class="quote__text">
+            De manière inconsciente, je crois, je guette un regard, une
+            expression, des traits ou une nostalgie capable de résumer ou plus
+            exactement de révéler une vie
+          </h1>
+        </blockquote>
+        <figcaption class="quote__author">- Richard Avedon</figcaption>
+      </figure>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="form-container">
+          <h2>Une question ? Une demande de devis ?</h2>
+          <p>
+            N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
+          </p>
+          <form action="" method="post">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="Envoyer" />
+          </form>
+          <div>
+            <p>
+              adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux. Mon numéro de
+              téléphone : 05 56 67 78 89. Je réponds au téléphone du lundi au
+              vendredi de 10 h à 19 h.
+            </p>
+          </div>
+        </div>
+        <div class="picture right">
+          <img src="/assets/camera.e68b90ad.png" alt="photo of a camera" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

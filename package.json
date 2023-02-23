@@ -1,7 +1,6 @@
 {
   "name": "nina-carducci.github.io",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -30,5 +29,9 @@
   "dependencies": {
     "bootstrap": "5.2.3",
     "vite-plugin-purgecss": "^0.2.12"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "description": ""
 }
