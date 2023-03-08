@@ -8,6 +8,7 @@ export default {
   publicDir: true,
   build: {
     outDir: "../dist",
+    outDir: "../docs",
     emptyOutDir: true,
     rollupOptions: {
       output: {
