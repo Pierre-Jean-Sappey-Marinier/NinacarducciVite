@@ -9,7 +9,7 @@ export default {
   root: "./src",
   publicDir: true,
   build: {
-    outDir: "../dist",
+    outDir: "../docs",
 
     emptyOutDir: true,
     rollupOptions: {
