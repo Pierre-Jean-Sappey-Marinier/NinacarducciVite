@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "clen-build": "vite build --emptyOutDir",
+    "clean-build": "vite build --emptyOutDir",
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite build && vite preview"
